@@ -1,8 +1,10 @@
 # om-next-05
 
-Simple example based around [om-next](https://github.com/omcljs/om/wiki/Quick-Start-%28om.next%29) 
+Simple example based around [om-next](https://github.com/omcljs/om/wiki/Components,-Identity-&-Normalization)
 
-Remote list data - normalized
+Two list remotes :list1 :list2 (public/list1.json, public/list2.json)
+
+List data is merged together - normalized by om.next to present view
 
 [1.0.0-alpha24](https://clojars.org/org.omcljs/om)
 
