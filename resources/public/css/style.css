@@ -1,0 +1,24 @@
+body {
+    margin: 0 auto;
+    padding: 1em;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+}
+
+label {
+    text-align: right;
+    margin-right: 1em;
+    font-size: 1em;
+}
+
+button {
+    float:  right;
+}
+
+ul {
+    width: 250px;
+}
+
+li {
+    padding: 0.5em;
+}

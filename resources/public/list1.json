@@ -1,0 +1,20 @@
+[
+  "^ ",
+  "~:list/one",
+  [
+    [
+      "^ ",
+      "~:name", "Yoda", "~:points", 0, "~:age", 800
+    ],
+    [
+      "^ ",
+      "~:name", "Mary", "~:points", 0
+    ],
+    [
+      "^ ",
+      "~:name", "Bobert", "~:points", 0
+    ]
+  ]
+]
+
+
