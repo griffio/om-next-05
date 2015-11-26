@@ -120,18 +120,14 @@
                          (dom/h3 nil "List B")
                          (list-view two)]))))
 
-(defn merge-list-tree [one two]
-  (letfn [(merge-list [one two]
-            (if (and (map? one) (map? two))
-              (merge-with (fn [one' two'] (merge-list one' two')) one two)
-              two))]
-    (merge-list one two)))
+(defn merge-list-people [one two]
+  (merge-with into one two)) ;; squash together
 
 (def reconciler
   (om/reconciler
     {:state      {}                                         ;; state will normalized
      :remotes    [:list1 :list2]                            ;; the two remote lists
-     :merge-tree merge-list-tree                            ;; manual merge
+     :merge-tree merge-list-people                          ;; manual merge
      :send       (people-send)                              ;; get the remote data
      :parser     (om/parser {:read read-people :mutate mutate-points})}))
 
