@@ -2,6 +2,10 @@
 
 Simple example based around [om-next Components,-Identity-&-Normalization](https://github.com/omcljs/om/wiki/Components,-Identity-&-Normalization)
 
+This only demonstrates that data keys can be loaded and merged and is not a correct usage of remote hosts.
+
+The merge-tree function is overridden to merge the two data keys into one state.
+
 Two list remotes :list1 :list2
 
  [public/list1.json](https://github.com/griffio/om-next-05/blob/master/resources/public/list1.json)
