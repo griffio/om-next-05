@@ -2,9 +2,9 @@
 
 Simple example based around [om-next Components,-Identity-&-Normalization](https://github.com/omcljs/om/wiki/Components,-Identity-&-Normalization)
 
-This only demonstrates that data keys can be loaded and merged and is not a correct usage of remote hosts.
+**This only demonstrates how data can be loaded and merged and is not an example of remote hosts.**
 
-The merge-tree function is overridden to merge the two data keys into one state.
+The merge-tree function is overridden to merge the two data keys into one normalized state.
 
 Two list remotes :list1 :list2
 
