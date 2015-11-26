@@ -1,8 +1,12 @@
 # om-next-05
 
-Simple example based around [om-next](https://github.com/omcljs/om/wiki/Components,-Identity-&-Normalization)
+Simple example based around [om-next Components,-Identity-&-Normalization](https://github.com/omcljs/om/wiki/Components,-Identity-&-Normalization)
 
-Two list remotes :list1 :list2 (public/list1.json, public/list2.json)
+Two list remotes :list1 :list2
+
+ [public/list1.json](https://github.com/griffio/om-next-05/blob/master/resources/public/list1.json)
+
+ [public/list2.json](https://github.com/griffio/om-next-05/blob/master/resources/public/list2.json)
 
 List data is merged together - normalized by om.next to present view
 
