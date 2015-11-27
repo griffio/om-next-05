@@ -4,7 +4,7 @@ Simple example based around [om-next Components,-Identity-&-Normalization](https
 
 **This only demonstrates how data can be loaded and merged and is not an example of remote hosts.**
 
-The merge-tree function is overridden to merge the two data keys into one normalized state.
+The Om "merge-tree" function is overridden to merge the two data keys into one normalized state.
 
 Two list remotes :list1 :list2
 
