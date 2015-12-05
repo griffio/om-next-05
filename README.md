@@ -14,7 +14,7 @@ Two list remotes :list1 :list2
 
 List data is merged together - normalized by om.next to present view
 
-[1.0.0-alpha24](https://clojars.org/org.omcljs/om)
+[1.0.0-alpha25](https://clojars.org/org.omcljs/om)
 
 ## Overview
 
